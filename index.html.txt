@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Ashoka Pharmacy | Ayurvedic Care</title>
+  <link rel="stylesheet" href="style.css">
+  <script defer src="script.js"></script>
+</head>
+
+<body>
+
+  <header>
+    <h1>Ashoka Pharmacy</h1>
+    <p>Trusted Ayurvedic Medical Care</p>
+  </header>
+
+  <nav>
+    <a href="#home">Home</a>
+    <a href="#about">About</a>
+    <a href="#treatments">Treatments</a>
+    <a href="#medicines">Medicines</a>
+    <a href="#contact">Contact</a>
+  </nav>
+
+  <section id="home" class="section">
+    <h2>Welcome to Ashoka Pharmacy</h2>
+    <p>
+      We provide authentic Ayurvedic medicines and personalized treatments
+      to improve your health naturally.
+    </p>
+  </section>
+
+  <section id="about" class="section light">
+    <h2>About Us</h2>
+    <p>
+      Ashoka Pharmacy is dedicated to healing through Ayurveda using
+      traditional herbal formulations and expert care.
+    </p>
+  </section>
+
+  <section id="treatments" class="section">
+    <h2>Our Treatments</h2>
+    <ul>
+      <li>Diabetes Control</li>
+      <li>Skin & Hair Problems</li>
+      <li>Joint Pain & Arthritis</li>
+      <li>Digestive Disorders</li>
+    </ul>
+  </section>
+
+  <section id="medicines" class="section light">
+    <h2>Our Medicines</h2>
+    <input type="text" id="medicineSearch" placeholder="Search medicine name">
+    <ul id="medicineList">
+      <li>Chyawanprash</li>
+      <li>Ashwagandha Tablets</li>
+      <li>Rakthaposhini</li>
+      <li>Kashayam</li>
+      <li>Herbal Oils</li>
+    </ul>
+  </section>
+
+  <section id="contact" class="section">
+    <h2>Book Appointment</h2>
+
+    <form id="appointmentForm">
+      <input type="text" id="userName" placeholder="Your Name">
+      <input type="tel" id="userPhone" placeholder="Phone Number">
+      <textarea id="healthIssue" placeholder="Describe your health issue"></textarea>
+      <button type="submit">Submit</button>
+      <p id="formMessage"></p>
+    </form>
+  </section>
+
+  <footer>
+    <p>📍 Ashoka Pharmacy, Iritty</p>
+    <p>📞 9495645687</p>
+    <p>© 2026 Ashoka Pharmacy. All rights reserved.</p>
+  </footer>
+
+</body>
+</html>
